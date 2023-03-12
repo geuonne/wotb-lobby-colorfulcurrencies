@@ -104,9 +104,9 @@ release:
 
 # build packages in general format
 .PHONY: dist-general
-dist-forblitz: DISTDIR = dist/general
+dist-general: DISTDIR = dist/general
 dist-general: build
-	$(CD) $(BUILDDIR)/$(WMOD_PLATFORM) && $(7Z) a $(WMOD_PACKAGENAME).zip $(WOTB_PREFIX)
+	$(CD) $(BUILDDIR)/$(WMOD_PLATFORM) && $(7Z) a $(_ROOT)/$(DISTDIR)/$(WMOD_PACKAGENAME).zip $(WOTB_PREFIX)
 
 # build packages as required by Forblitz
 .PHONY: dist-forblitz

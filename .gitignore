@@ -1,0 +1,7 @@
+# Build artifacts
+build/
+dist/
+
+# Compressed files
+*.dvpl
+*.zip

@@ -1,0 +1,10 @@
+Insert you mod description here.
+
+Notes:
+Insert additional notes & FAQ here.
+
+Compatibility:
+- Platform: (any|pc|android)
+- Game publisher: (any|wg|lg)
+- Game version: (any|[N.N-]N.N[+])
+- Game version tested against: N.N

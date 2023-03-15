@@ -126,8 +126,16 @@ endif
 .PHONY: dist
 dist: dist-general
 
-# Clean build artifacts
-.PHONY: clean
-clean:
-	$(RM) -r -f $(BUILDDIR)
+# Clean packages
+.PHONY: distclean
+distclean:
 	$(RM) -r -f dist/
+
+# Clean build artifacts
+.PHONY: buildclean
+buildclean:
+	$(RM) -r -f $(BUILDDIR)
+
+# Clean all
+.PHONY: clean
+clean: distclean buildclean

@@ -69,6 +69,7 @@ ifeq ($(WMOD_PLATFORM), android)
 	WMOD_INSTALLDIR = $(WOTB_INSTALLDIR)/$(WOTB_PREFIX)
 endif
 
+SRCDIR = src
 BUILDDIR = build
 MEDIADIR = public/media
 DISTDIR = dist/general
@@ -86,7 +87,7 @@ all: build
 
 build: $(DEPS)
 	$(MKDIR) -p $(BUILDPLATFORMDIR)
-	$(CP) -R src/* $(BUILDPLATFORMDIR)
+	$(CP) -R $(SRCDIR)/* $(BUILDPLATFORMDIR)
 ifeq ($(WMOD_DVPLIZE), y)
 	$(CD) $(BUILDPLATFORMDIR) && $(DVPL) compress
 endif

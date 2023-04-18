@@ -1,10 +1,8 @@
-Insert you mod description here.
-
-Notes:
-Insert additional notes & FAQ here.
+This modification colorizes currency labels throughout the lobby screens akin to how they are displayed in WoT PC.
+E.g. the text will be gold for game gold, or mint for crew xp.
 
 Compatibility:
-- Platform: (any|pc|android)
-- Game publisher: (any|wg|lg)
-- Game version: (any|[N.N-]N.N[+])
-- Game version tested against: N.N
+- Platform: any
+- Game publisher: any
+- Game version: 5.6.0+
+- Game version where the med was tested: 9.8.0

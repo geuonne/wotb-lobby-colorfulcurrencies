@@ -18,7 +18,7 @@ MAKE = make
 
 # Mod constants
 # Mod full name
-WMOD_TITLE = Insert your mod name here
+WMOD_TITLE = Lobby ColorfulCurrencies
 # One or more of: (pc|android|ios|any)
 WMOD_INITIALTARGETPLATFORM = any
 # (N.N.N[+|[-N.N.N]]|any)

@@ -1,9 +1,10 @@
-# WoT Blitz - `insert your mod name here`
+# WoT Blitz - Lobby ColorfulCurrencies mod
 
-`insert any media here`
+![Lobby header](public/media/lobby-header.png)
+![Tank upgrades screen](public/media/tank-upgrades.png)
+![Detailed battle results](public/media/detailed-battle-results.png)
 
 ## Description
-`Here go mod descriptions - the content that you can provide in various mod sites as well. Specify the links to your mod descriptions from public/desc directory here`
 * [en](public/desc/en.txt)
 * [ru](public/desc/ru.txt)
 
